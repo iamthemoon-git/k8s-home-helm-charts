@@ -3,7 +3,7 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T22:14:47.568368Z"
+    created: "2022-11-16T22:38:50.412224Z"
     description: A Helm chart for Kubernetes
     digest: 73574c243936c5ee86d1ff2c497719dce821c5b80137eccfb6f666b11e0dc862
     name: app1
@@ -11,4 +11,26 @@ entries:
     urls:
     - https://iamthemoon-git.github.io/k8s-home-helm-charts/app1-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-16T22:14:47.56756Z"
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-16T22:38:50.412946Z"
+    description: A Helm chart for Kubernetes
+    digest: cc29ce4f1c0cd053971d899915f24094a3c35f6cdd38bfa21885c5e47ceb223f
+    name: app2
+    type: application
+    urls:
+    - https://iamthemoon-git.github.io/k8s-home-helm-charts/app2-0.1.0.tgz
+    version: 0.1.0
+  radarr:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-16T22:38:50.41405Z"
+    description: Radarr - Automatic downloader for movies :)
+    digest: 25cfdbeae25ddc08e6aac7493ef849c8b0490afb048dca701663f4f6192fc3da
+    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/radarr/logo/radarr.png
+    name: radarr
+    urls:
+    - https://iamthemoon-git.github.io/k8s-home-helm-charts/radarr-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-16T22:38:50.411282Z"
