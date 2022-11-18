@@ -1,0 +1,32 @@
+replicaCount: 1
+
+image:
+  repository: linuxserver/sonarr
+  tag: 4.0.0-v4 # ARM image
+  pullPolicy: IfNotPresent
+
+env:
+  - name: PUID
+    value: "1000"
+  - name: PGID
+    value: "1000"
+
+service:
+  type: ClusterIP
+  port: 80
+
+volumes:
+  - name: media-k8s
+    persistentVolumeClaim:
+      claimName: "media-k8s" # PersistentVolumeClaim created earlier
+
+volumeMounts:
+  - name: media-k8s
+    mountPath: "/config"
+    subPath: "configs/sonarr" # Path /mnt/ssd/media/configs/sonarr where sonarr writes the configuration
+  - name: media-k8s
+    mountPath: "/downloads/transmission"
+    subPath: "downloads/transmission" # Path /mnt/ssd/media/downloads/transmission where sonarr picks up downloaded episodes
+  - name: media-k8s
+    mountPath: "/tv"
+    subPath: "library/tv" # Path /mnt/ssd/media/library/tv where sonarr moves and renames the episodes
