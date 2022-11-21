@@ -1,0 +1,57 @@
+replicaCount: 1
+
+image:
+  repository: "linuxserver/jackett" # Special image to use Jackett over a VPN
+  tag: "0.20.2182"
+  pullPolicy: IfNotPresent
+
+env:
+  - name: VPN_ENABLED
+    value: "no" # Enable Jackett over VPN
+    #value: "no" # Enable Jackett over VPN
+  - name: VPN_USERNAME
+    valueFrom:
+      secretKeyRef: # Reference to the secret | openvpn.username
+        name: "openvpn"
+        key: "username"
+  - name: VPN_PASSWORD
+    valueFrom:
+      secretKeyRef: # Reference to the secret | openvpn.password
+        name: "openvpn"
+        key: "password"
+  - name: LAN_NETWORK
+    #value: "192.168.0.0/24"
+    value: "10.0.0.0/24"
+  - name: CREATE_TUN_DEVICE
+    value: "true" # Needed for VPN
+  - name: PUID
+    value: "1000"
+  - name: PGID
+    value: "1000"
+
+service:
+  type: ClusterIP
+  #type: LoadBalancer
+  port: 80
+  #port: 9117
+
+volumes:
+  - name: "media-k8s"
+    persistentVolumeClaim:
+      claimName: "media-k8s" # PersistentVolumeClaim created earlier
+  - name: "dev-tun"  # Needed for VPN
+    hostPath:
+      path: "/dev/net/tun"
+
+volumeMounts:
+  - name: "media-k8s"
+    mountPath: "/config"
+    subPath: "configs/jackett" # Path /mnt/ssd/media/configs/jackett where jackett writes the configuration
+  - name: "media-k8s"
+    mountPath: "/downloads"
+    subPath: "downloads/jackett" # Path /mnt/ssd/media/downloads/jackett ???
+
+securityContext:
+  capabilities: # Needed for VPN
+    add:
+      - NET_ADMIN
