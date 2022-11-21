@@ -3,7 +3,7 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-21T16:17:53.612923Z"
+    created: "2022-11-21T16:36:47.519851Z"
     description: A Helm chart for Kubernetes
     digest: 73574c243936c5ee86d1ff2c497719dce821c5b80137eccfb6f666b11e0dc862
     name: app1
@@ -14,7 +14,7 @@ entries:
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-21T16:17:53.614189Z"
+    created: "2022-11-21T16:36:47.520544Z"
     description: A Helm chart for Kubernetes
     digest: cc29ce4f1c0cd053971d899915f24094a3c35f6cdd38bfa21885c5e47ceb223f
     name: app2
@@ -25,7 +25,7 @@ entries:
   emby:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.615604Z"
+    created: "2022-11-21T16:36:47.521213Z"
     description: Emby Server (Media Browser)
     digest: 96447540e9fe4ed8df996cab152d1885316d63911e11e99d1b46b88ae73d22ea
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/emby/logo/emby.jpg
@@ -36,7 +36,7 @@ entries:
   jackett:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.620526Z"
+    created: "2022-11-21T16:36:47.523493Z"
     description: Jackett - shut:p
     digest: a3e4408a8647732d0827cffce4ff8e253ea178c11a84e67434ad1f4a0b4a0a77
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
@@ -47,7 +47,7 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.62439Z"
+    created: "2022-11-21T16:36:47.52526Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 1e8a92b35ce3d188c4ded2195849210d9f18959a64e267f2fa96661af9231e00
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/radarr/logo/radarr.png
@@ -57,7 +57,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.62248Z"
+    created: "2022-11-21T16:36:47.524386Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 45a912a1c95698072685eaf72bbdace223625729ba5fbbcc660ac4507fb89a20
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/radarr/logo/radarr.png
@@ -68,7 +68,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.629831Z"
+    created: "2022-11-21T16:36:47.528734Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 2dc5dcd9de152b65f2e69bc415c0cc6fab4f55eea008a53f491ec85eb3acf3e9
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -78,7 +78,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.628253Z"
+    created: "2022-11-21T16:36:47.527601Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 633df333f5215d874b2ce835750b20a28dfc7b46802f953caebb9de0d38f6696
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -88,7 +88,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.62638Z"
+    created: "2022-11-21T16:36:47.526417Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: d7debc55404893068e7e1ed712494e6abc919eab53007ca48421b4041fa58cb2
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -99,12 +99,22 @@ entries:
   transmission-openvpn:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-21T16:17:53.63142Z"
+    created: "2022-11-21T16:36:47.532241Z"
     description: Transmission torrent client with WebUI while connecting to OpenVPN.
-    digest: 5fa2de4b4c49518bd3ebd3a9ae77607cff57c0841e0eea2007449d605f771d8a
+    digest: ac5134b4d1519596b7effd988d0b7bc37aafcb7ceabb9e2813ef34d327bda669
+    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/transmission-openvpn/logo/transmission.png
+    name: transmission-openvpn
+    urls:
+    - https://iamthemoon-git.github.io/k8s-home-helm-charts/transmission-openvpn-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-21T16:36:47.530891Z"
+    description: Transmission torrent client with WebUI while connecting to OpenVPN.
+    digest: 4e9a9878ab55c1af8f707e3feb35357302659d26bc9bf3042eda7bcef3193e70
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/transmission-openvpn/logo/transmission.png
     name: transmission-openvpn
     urls:
     - https://iamthemoon-git.github.io/k8s-home-helm-charts/transmission-openvpn-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-21T16:17:53.611197Z"
+generated: "2022-11-21T16:36:47.518798Z"
