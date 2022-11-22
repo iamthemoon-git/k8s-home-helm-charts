@@ -3,7 +3,7 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-22T09:15:17.983549Z"
+    created: "2022-11-22T09:25:02.795572Z"
     description: A Helm chart for Kubernetes
     digest: 73574c243936c5ee86d1ff2c497719dce821c5b80137eccfb6f666b11e0dc862
     name: app1
@@ -14,7 +14,7 @@ entries:
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-22T09:15:17.984092Z"
+    created: "2022-11-22T09:25:02.796142Z"
     description: A Helm chart for Kubernetes
     digest: cc29ce4f1c0cd053971d899915f24094a3c35f6cdd38bfa21885c5e47ceb223f
     name: app2
@@ -25,7 +25,7 @@ entries:
   emby:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.984645Z"
+    created: "2022-11-22T09:25:02.796712Z"
     description: Emby Server (Media Browser)
     digest: 96447540e9fe4ed8df996cab152d1885316d63911e11e99d1b46b88ae73d22ea
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/emby/logo/emby.jpg
@@ -36,7 +36,7 @@ entries:
   jackett:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.985628Z"
+    created: "2022-11-22T09:25:02.797631Z"
     description: Jackett - shut:p
     digest: 4744a2ee4384adbbd36909501c334daeddbeec6d63c7d35948a4876b9e07d66a
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
@@ -47,7 +47,17 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.991081Z"
+    created: "2022-11-22T09:25:02.804082Z"
+    description: Radarr - Automatic downloader for movies :)
+    digest: f2370383880c7ddd5251828ab8fa17d7322501d43dd609b5629128d4e91efa01
+    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
+    name: radarr
+    urls:
+    - https://iamthemoon-git.github.io/k8s-home-helm-charts/radarr-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-22T09:25:02.803288Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 6f67552e841ddc93a71e12c6debe65437e561c1e232418f04ee570b0cd597590
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -57,7 +67,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.990198Z"
+    created: "2022-11-22T09:25:02.802375Z"
     description: Radarr - Automatic downloader for movies :)
     digest: b656e33a5fad2c7847888a30236c67d32f5dc1d7eca8dfcb4d5651ecd37c0c0f
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -67,7 +77,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.989293Z"
+    created: "2022-11-22T09:25:02.801459Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 058319fcfb6c507d7c1d1cbe4036ebdae45a9d07e85cfbb359a3a2741be9ebb4
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -77,7 +87,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.988393Z"
+    created: "2022-11-22T09:25:02.80055Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 91bc68a122be59331c456cf139ee2630757952eabb7199858a2433735e4a69a7
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -87,7 +97,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.987419Z"
+    created: "2022-11-22T09:25:02.799563Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 25c11a0cce86bd6039f00488509a1c20c59755af290a8f5f547ba085eda45eee
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -98,7 +108,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.993579Z"
+    created: "2022-11-22T09:25:02.80664Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 2dc5dcd9de152b65f2e69bc415c0cc6fab4f55eea008a53f491ec85eb3acf3e9
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -108,7 +118,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.992833Z"
+    created: "2022-11-22T09:25:02.805909Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 633df333f5215d874b2ce835750b20a28dfc7b46802f953caebb9de0d38f6696
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -118,7 +128,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T09:15:17.991947Z"
+    created: "2022-11-22T09:25:02.804965Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: d7debc55404893068e7e1ed712494e6abc919eab53007ca48421b4041fa58cb2
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -147,4 +157,4 @@ entries:
     urls:
     - https://iamthemoon-git.github.io/k8s-home-helm-charts/transmission-openvpn-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-22T09:15:17.982869Z"
+generated: "2022-11-22T09:25:02.794881Z"
