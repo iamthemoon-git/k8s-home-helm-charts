@@ -25,7 +25,7 @@ entries:
   emby:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:05.995468Z"
+    created: "2022-11-22T11:05:24.749262Z"
     description: Emby Server (Media Browser)
     digest: 96447540e9fe4ed8df996cab152d1885316d63911e11e99d1b46b88ae73d22ea
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/emby/logo/emby.jpg
@@ -36,7 +36,7 @@ entries:
   jackett:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:05.996386Z"
+    created: "2022-11-22T11:05:24.750832Z"
     description: Jackett - shut:p
     digest: 4744a2ee4384adbbd36909501c334daeddbeec6d63c7d35948a4876b9e07d66a
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
@@ -47,7 +47,17 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:05.999906Z"
+    created: "2022-11-22T11:05:24.754447Z"
+    description: Radarr - Automatic downloader for movies :)
+    digest: 0fe2ba6545297f82e63151f0b6be23cc7fdfa04a82e4b1b11e6501c2dcb14e98
+    icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
+    name: radarr
+    urls:
+    - https://iamthemoon-git.github.io/k8s-home-helm-charts/radarr-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-22T11:05:24.753679Z"
     description: Radarr - Automatic downloader for movies :)
     digest: aaaea5fea48374d9f3b149cabd3ef61b721ff7b22337bd44a6412be19873069d
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -57,7 +67,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:05.999188Z"
+    created: "2022-11-22T11:05:24.752975Z"
     description: Radarr - Automatic downloader for movies :)
     digest: 4accd82778f1e4c1b1a964fb6f67a1de1c471b586cc681e019b385d3e0e5c288
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -67,7 +77,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:05.998247Z"
+    created: "2022-11-22T11:05:24.751963Z"
     description: Radarr - Automatic downloader for movies :)
     digest: ba94fff043f826335af586dce7e7d6fd1898be04946054477fdf4c1ce1dbb9fa
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -78,7 +88,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-22T10:59:06.000571Z"
+    created: "2022-11-22T11:05:24.75516Z"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 2dc5dcd9de152b65f2e69bc415c0cc6fab4f55eea008a53f491ec85eb3acf3e9
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -127,4 +137,4 @@ entries:
     urls:
     - https://iamthemoon-git.github.io/k8s-home-helm-charts/transmission-openvpn-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-22T10:59:05.994744Z"
+generated: "2022-11-22T11:05:24.748479Z"
