@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "linuxserver/radarr"
-  tag: "4.3.1-nightly" # ARM image
+  tag: "4.4.1-nightly" # ARM image
   pullPolicy: IfNotPresent
 
 env:
