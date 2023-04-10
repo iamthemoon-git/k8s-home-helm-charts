@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/sonarr
-  tag: 4.0.0-v4 # ARM image
+  tag: latest # ARM image
   pullPolicy: IfNotPresent
 
 env:
