@@ -3,7 +3,7 @@ entries:
   emby:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.468438+01:00"
+    created: "2023-04-25T21:54:17.541669+01:00"
     description: Emby Server (Media Browser)
     digest: 3516e7aacb1c8a09b4631e904a1ecbfba443788584bd14cd0ab1f167d4fa07e5
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/emby/logo/emby.jpg
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.468031+01:00"
+    created: "2023-04-25T21:54:17.541006+01:00"
     description: Emby Server (Media Browser)
     digest: 96447540e9fe4ed8df996cab152d1885316d63911e11e99d1b46b88ae73d22ea
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/emby/logo/emby.jpg
@@ -24,39 +24,9 @@ entries:
   jackett:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.471797+01:00"
+    created: "2023-04-25T21:54:17.543531+01:00"
     description: Jackett - shut:p
-    digest: b7e6c35b65afe2e0cf4ceea7a540dd555c4ad5949243b8b80933ba5f6511033f
-    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
-    name: jackett
-    urls:
-    - https://iamthemoon-git.github.io/k8s-home-helm-charts/jackett-0.1.4.tgz
-    version: 0.1.4
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2023-08-22T22:48:27.471179+01:00"
-    description: Jackett - shut:p
-    digest: dd940c90f059636ebf391578869447b6233ae562790c1a42edbbf0398970d79d
-    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
-    name: jackett
-    urls:
-    - https://iamthemoon-git.github.io/k8s-home-helm-charts/jackett-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2023-08-22T22:48:27.470529+01:00"
-    description: Jackett - shut:p
-    digest: 2ee5b204618acabca4571f8c14e1916c1da88537b5fecd7e4bb4dc82d421baba
-    icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
-    name: jackett
-    urls:
-    - https://iamthemoon-git.github.io/k8s-home-helm-charts/jackett-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2023-08-22T22:48:27.469853+01:00"
-    description: Jackett - shut:p
-    digest: eab19f55fe7e1a3557605ba3c17b5258b021211adc832e9f50896893a3ab82c1
+    digest: 75ad88e2c1a1c77c4ec438796f810608d40ef2a424a2b04e7cb110675c5b7a48
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
     name: jackett
     urls:
@@ -64,7 +34,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.469227+01:00"
+    created: "2023-04-25T21:54:17.542782+01:00"
     description: Jackett - shut:p
     digest: 5a933ed7cffc2ec7a4ad409989f7ae03c08aba92e4fa0e0b64bfb0835b6a519b
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/jackett/logo/jackett.png
@@ -75,7 +45,7 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.475902+01:00"
+    created: "2023-04-25T21:54:17.552233+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: 24ee4cda51f457ecaf67c79625b40823c82006dd816cad8cfcca4d37022938f6
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -85,7 +55,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.474765+01:00"
+    created: "2023-04-25T21:54:17.551474+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: b97e88e8d156791e20adfe0dc9f65870a3ece44c3f8e9511680f8597fe8ff0f9
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -95,7 +65,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.474198+01:00"
+    created: "2023-04-25T21:54:17.55064+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: 3a5ca5bf3a7bb532c1c6ab0c54e7c546f94c8afd3cb866ff109c303d85591a0a
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -105,7 +75,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.473843+01:00"
+    created: "2023-04-25T21:54:17.545856+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: aaaea5fea48374d9f3b149cabd3ef61b721ff7b22337bd44a6412be19873069d
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -115,7 +85,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.473472+01:00"
+    created: "2023-04-25T21:54:17.545283+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: 4accd82778f1e4c1b1a964fb6f67a1de1c471b586cc681e019b385d3e0e5c288
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -125,7 +95,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.472697+01:00"
+    created: "2023-04-25T21:54:17.544306+01:00"
     description: Radarr - Automatic downloader for movies :)
     digest: ba94fff043f826335af586dce7e7d6fd1898be04946054477fdf4c1ce1dbb9fa
     icon: https://bananaspliff.github.io/geek-charts/radarr/logo/radarr.png
@@ -136,7 +106,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.478047+01:00"
+    created: "2023-04-25T21:54:17.55471+01:00"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: fd614e2c65ab82916d04242bcb345c96175921265fc24d979abef9f4facafc2a
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -146,7 +116,7 @@ entries:
     version: 0.3.7
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.477401+01:00"
+    created: "2023-04-25T21:54:17.554065+01:00"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 88daa9637af456b287db7b36f40b0424aba564615d92b4a581e5ced387db1ac1
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -156,7 +126,7 @@ entries:
     version: 0.3.6
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.4769+01:00"
+    created: "2023-04-25T21:54:17.553365+01:00"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: ba24192c5de0f310ce98e6b30677c14bb8a10d5ac92a519cfc31db514e8bbf30
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -166,7 +136,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-08-22T22:48:27.476506+01:00"
+    created: "2023-04-25T21:54:17.552815+01:00"
     description: Sonarr - Automatic downloader for TV shows ^^
     digest: 2dc5dcd9de152b65f2e69bc415c0cc6fab4f55eea008a53f491ec85eb3acf3e9
     icon: https://iamthemoon-git.github.io/k8s-home-helm-charts/charts/sonarr/logo/sonarr.png
@@ -174,4 +144,4 @@ entries:
     urls:
     - https://iamthemoon-git.github.io/k8s-home-helm-charts/sonarr-0.3.0.tgz
     version: 0.3.0
-generated: "2023-08-22T22:48:27.467332+01:00"
+generated: "2023-04-25T21:54:17.539447+01:00"
