@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "linuxserver/jackett" # Special image to use Jackett over a VPN
-  tag: "0.21.681"
+  tag: "0.22.507"
   pullPolicy: IfNotPresent
 
 env:

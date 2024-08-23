@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: linuxserver/jackett
-  tag: "0.22.507"
+  tag: "0.22.507" #dont think this work, try other values file first
   pullPolicy: IfNotPresent
 
 env:
