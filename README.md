@@ -70,3 +70,8 @@ steps:
     echo "Version - ${{ steps.chart.outputs.version }}"
     echo "App Version - ${{ steps.chart.outputs.appVersion }}"
 ```
+
+HOW TO:::
+helm package charts/jackett/
+helm repo index --url https://iamthemoon-git.github.io/k8s-home-helm-charts/ --merge index.yaml .
+4295 2023-08-23 00:00:32 git commit -m "upgrade to jacket helm chart v0.2.0"
